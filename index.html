@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CRMPro — Expert Salesforce & AI Architecture</title>
+    <meta name="description" content="Independent Salesforce consultancy. Agentforce, Data Cloud, and RAG-driven AI implementations without the marketing fluff." />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="CRMPro" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="alternate" hreflang="pl" href="/pl/" />
+    <link rel="alternate" hreflang="en" href="/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: { deepnavy: '#001d3d', electric: '#0ea5ff', slate: '#6b7280' },
+            fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui'] }
+          }
+        }
+      }
+    </script>
+    <style>html { scroll-behavior: smooth; }</style>
+  </head>
+  <body class="bg-white text-gray-800 antialiased">
+    <header class="border-b border-gray-100 sticky top-0 bg-white/80 backdrop-blur-md z-50">
+      <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="/" class="text-deepnavy font-extrabold text-xl tracking-tighter">CRM<span class="text-electric">Pro</span></a>
+        <nav class="flex items-center space-x-6 text-sm font-medium">
+          <a href="#services" class="text-slate hover:text-deepnavy transition">Services</a>
+          <a href="#about" class="text-slate hover:text-deepnavy transition">Expertise</a>
+          <a href="#contact" class="px-4 py-2 rounded-lg bg-deepnavy text-white hover:bg-electric transition shadow-md">Contact</a>
+          <div class="flex items-center gap-2 ml-4 border-l pl-4">
+            <a href="/" class="font-bold text-deepnavy">EN</a>
+            <span class="text-gray-300">/</span>
+            <a href="/pl/" class="text-slate hover:text-deepnavy">PL</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6">
+      <section class="relative grid gap-12 md:grid-cols-2 items-center py-20">
+        <div class="z-10">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-deepnavy/5 text-deepnavy text-[10px] font-bold uppercase tracking-widest mb-6 border border-deepnavy/10">
+            Independent Consultancy
+          </div>
+          <h1 class="text-5xl md:text-7xl font-extrabold text-deepnavy leading-[1.05] tracking-tight">
+            Built for <br/>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-deepnavy to-electric">Performance</span>
+          </h1>
+          <p class="mt-8 text-xl text-gray-600 leading-relaxed max-w-lg">
+            Deploying **Agentforce** and **Data Cloud** without the overhead. I solve architectural bottlenecks and integrate Generative AI into your core Salesforce workflows.
+          </p>
+          
+          <div class="mt-10 flex flex-wrap gap-5">
+            <a href="#contact" class="px-10 py-5 rounded-xl bg-deepnavy text-white font-bold hover:bg-electric transition-all shadow-xl shadow-deepnavy/10">
+              Request a Scoping Call
+            </a>
+          </div>
+
+          <div class="mt-10 max-w-xl rounded-2xl border border-gray-100 bg-gray-50/50 p-6 shadow-inner">
+            <div class="flex items-center gap-2 text-deepnavy font-bold">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-electric" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+              No-fluff Implementation
+            </div>
+            <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+              4 to 8-week pilots. Fixed-scope delivery. No junior consultants learning on your dime. If a feature doesn't solve a core business pain, I'll tell you straight.
+            </p>
+          </div>
+        </div>
+
+        <div class="hidden md:flex relative justify-center items-center h-[400px]">
+           <div class="absolute w-64 h-64 bg-electric/10 rounded-full blur-3xl"></div>
+           <div class="relative space-y-4">
+              <div class="bg-white p-4 shadow-lg rounded-xl border border-gray-100 transform -rotate-2">
+                <p class="text-[10px] font-bold text-electric uppercase">Execution</p>
+                <p class="font-bold text-deepnavy">Agentforce SDK</p>
+              </div>
+              <div class="bg-white p-4 shadow-xl rounded-xl border border-gray-100 translate-x-12">
+                <p class="text-[10px] font-bold text-electric uppercase">Strategy</p>
+                <p class="font-bold text-deepnavy">Data Cloud / CDP</p>
+              </div>
+              <div class="bg-white p-4 shadow-lg rounded-xl border border-gray-100 transform rotate-1">
+                <p class="text-[10px] font-bold text-electric uppercase">Intelligence</p>
+                <p class="font-bold text-deepnavy">RAG & LLM Flow</p>
+              </div>
+           </div>
+        </div>
+      </section>
+
+      <section id="enterprise" class="py-14 border-t border-gray-50">
+        <h2 class="text-3xl font-bold text-deepnavy tracking-tight">Salesforce for B2B, CPQ & Integrations</h2>
+        <p class="mt-4 text-gray-700 max-w-2xl">Delivering complex B2B Salesforce programs, bespoke CPQ implementations, and robust integrations that connect your revenue stack — built for uptime and scale.</p>
+
+        <div class="mt-8 grid gap-6 md:grid-cols-3">
+          <div class="p-6 bg-white border rounded-lg shadow-sm">
+            <h3 class="font-semibold text-deepnavy">Digital Experience Implementations (B2B Commerce, Service Portal, Sites)</h3>
+            <p class="mt-2 text-sm text-gray-600">Implementation of Experience Cloud & Commerce solutions: partner and customer portals, commerce-enabled sites, and scalable digital experiences optimized for conversion and reliability.</p>
+          </div>
+          <div class="p-6 bg-white border rounded-lg shadow-sm">
+            <h3 class="font-semibold text-deepnavy">Custom CPQ Consulting</h3>
+            <p class="mt-2 text-sm text-gray-600">CPQ architecture, rules modeling, pricing engines and quote-to-cash automation to reduce deal cycle time and errors.</p>
+          </div>
+          <div class="p-6 bg-white border rounded-lg shadow-sm">
+            <h3 class="font-semibold text-deepnavy">Integration Solutions</h3>
+            <p class="mt-2 text-sm text-gray-600">Reliable integrations: middleware patterns, event-driven sync, and API-led designs to connect billing, ERP, and analytics systems.</p>
+          </div>
+        </div>
+
+        <div class="mt-6">
+          <a href="#contact" class="inline-block px-6 py-3 bg-deepnavy text-white rounded-lg font-bold hover:bg-electric transition">Discuss B2B & CPQ</a>
+        </div>
+      </section>
+
+      <section id="services" class="py-20 border-t border-gray-50">
+        <h2 class="text-3xl font-bold text-deepnavy tracking-tight">Core Services</h2>
+        <div class="mt-10 grid gap-8 md:grid-cols-3">
+          <article class="group">
+            <h3 class="font-bold text-lg text-deepnavy group-hover:text-electric transition">Architecture Audit</h3>
+            <p class="mt-3 text-sm text-gray-600 leading-relaxed">Fixing technical debt, optimizing Apex/Flow logic, and ensuring your Salesforce instance is actually ready for AI. No more "spaghetti" configurations.</p>
+          </article>
+          <article class="group">
+            <h3 class="font-bold text-lg text-deepnavy group-hover:text-electric transition">Agentforce Deployment</h3>
+            <p class="mt-3 text-sm text-gray-600 leading-relaxed">Custom AI agents that handle actual work—from smart lead routing to automated case summaries using RAG patterns and your own data.</p>
+          </article>
+          <article class="group">
+            <h3 class="font-bold text-lg text-deepnavy group-hover:text-electric transition">Data Cloud Integration</h3>
+            <p class="mt-3 text-sm text-gray-600 leading-relaxed">Unifying fragmented customer data into a single source of truth. Designing the foundation for real-time personalization and predictive analytics.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="training" class="py-16">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h2 class="text-3xl font-bold text-deepnavy tracking-tight">Admin & Power‑User Training</h2>
+            <p class="mt-4 text-lg text-gray-700 max-w-xl">Have a team of admins — but they struggle to deliver complex solutions quickly? I run focused enablement that turns experienced admins into delivery engines.</p>
+
+            <div class="mt-6 rounded-lg border-l-4 border-electric bg-deepnavy/5 p-5 max-w-xl">
+              <div class="text-deepnavy font-semibold">Hands-on, outcome-focused training</div>
+              <p class="mt-2 text-gray-600">Bootcamps, playbooks, and office-hours tailored to your stack: AppBuilder best-practices, Flow & Apex patterns, CI/CD for Salesforce, and Agentforce operability. Practical labs, not slide decks.</p>
+            </div>
+
+            <div class="mt-6 flex gap-4">
+              <a href="#contact" class="px-6 py-3 bg-deepnavy text-white rounded-lg font-bold hover:bg-electric transition">Schedule Training</a>
+              <a href="#contact" class="px-6 py-3 border border-gray-200 rounded-lg text-deepnavy font-medium hover:bg-gray-50 transition">Request Enablement Plan</a>
+            </div>
+          </div>
+
+          <div>
+            <ul class="grid gap-4">
+              <li class="p-4 bg-white border rounded-lg shadow-sm">
+                <div class="flex items-start gap-3">
+                  <div class="w-10 h-10 rounded-full bg-electric flex items-center justify-center text-white font-bold">W</div>
+                  <div>
+                    <div class="font-bold text-deepnavy">Workshops & Labs</div>
+                    <div class="text-sm text-gray-600">2‑3 day hands‑on sessions with real org data and build exercises.</div>
+                  </div>
+                </div>
+              </li>
+              <li class="p-4 bg-white border rounded-lg shadow-sm">
+                <div class="flex items-start gap-3">
+                  <div class="w-10 h-10 rounded-full bg-deepnavy text-white flex items-center justify-center font-bold">P</div>
+                  <div>
+                    <div class="font-bold text-deepnavy">Power‑User Playbooks</div>
+                    <div class="text-sm text-gray-600">Operational runbooks, naming conventions, and guardrails to reduce regressions.</div>
+                  </div>
+                </div>
+              </li>
+              <li class="p-4 bg-white border rounded-lg shadow-sm">
+                <div class="flex items-start gap-3">
+                  <div class="w-10 h-10 rounded-full bg-slate text-white flex items-center justify-center font-bold">O</div>
+                  <div>
+                    <div class="font-bold text-deepnavy">Office Hours</div>
+                    <div class="text-sm text-gray-600">Follow-up sessions to unblock builds, reviews, and deployment issues.</div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-20 bg-gray-50 rounded-3xl px-8 my-10">
+        <div class="max-w-3xl">
+          <h2 class="text-3xl font-bold text-deepnavy tracking-tight">Hands-on Expertise</h2>
+          <p class="mt-6 text-lg text-gray-700 leading-relaxed">
+            I am a **Senior Salesforce Architect** with over 10 years of experience in the ecosystem. I don't just "oversee" projects—I design the schemas, write the code, and ensure the governance is bulletproof. 
+          </p>
+          <div class="mt-8 flex flex-wrap gap-4 font-mono text-xs font-bold text-deepnavy">
+            <span class="bg-white px-3 py-1 border rounded">Sales & Service Cloud</span>
+            <span class="bg-white px-3 py-1 border rounded">Apex / LWC</span>
+            <span class="bg-white px-3 py-1 border rounded">Data Cloud</span>
+            <span class="bg-white px-3 py-1 border rounded">Prompt Engineering</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-20">
+        <div class="grid md:grid-cols-2 gap-16">
+          <div>
+            <h2 class="text-3xl font-bold text-deepnavy tracking-tight">Let's Talk Shop</h2>
+            <p class="mt-4 text-gray-600">Skip the generic sales deck. Send me a brief overview of your current bottleneck, and I'll respond with a technical perspective.</p>
+            <div class="mt-8 space-y-4">
+              <a href="mailto:hello@crmpro.cloud" class="block text-lg font-bold text-deepnavy hover:text-electric underline decoration-electric/30">hello@crmpro.cloud</a>
+              <a href="https://www.linkedin.com/in/serhiy-karaptan-a563b012b/" class="block font-medium text-slate">LinkedIn Profile →</a>
+            </div>
+          </div>
+          <form action="https://formspree.io/f/mvzwjnan" method="POST" class="space-y-4 bg-white p-8 border rounded-2xl shadow-sm">
+            <input type="hidden" name="_next" value="https://crmpro.cloud/thanks.html">
+            <div>
+              <label class="block text-sm font-medium">Name</label>
+              <input name="name" placeholder="Your Name" required class="mt-1 block w-full p-3 border-gray-100 border rounded-xl bg-gray-50 focus:bg-white focus:ring-2 focus:ring-electric outline-none transition" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium">Email</label>
+              <input type="email" name="email" placeholder="Work Email" required class="mt-1 block w-full p-3 border-gray-100 border rounded-xl bg-gray-50 focus:bg-white focus:ring-2 focus:ring-electric outline-none transition" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium">Message</label>
+              <textarea name="message" rows="4" placeholder="Tell me about your Salesforce setup..." required class="mt-1 block w-full p-3 border-gray-100 border rounded-xl bg-gray-50 focus:bg-white focus:ring-2 focus:ring-electric outline-none transition"></textarea>
+            </div>
+            <div>
+              <button type="submit" class="w-full py-4 bg-deepnavy text-white font-bold rounded-xl hover:bg-electric transition shadow-lg shadow-deepnavy/10">Send message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="max-w-5xl mx-auto px-6 py-12 border-t border-gray-50">
+      <div class="flex flex-col md:flex-row justify-between gap-8">
+        <div class="text-xs text-slate space-y-2">
+          <p>© 2026 CRMPro. All rights reserved.</p>
+          <p class="max-w-md italic">Salesforce, Agentforce, and Data Cloud are trademarks of Salesforce, Inc. CRMPro is an independent consultancy and is not affiliated with Salesforce, Inc.</p>
+        </div>
+        <div class="text-xs font-bold text-deepnavy uppercase tracking-widest">
+          Architecture / Intelligence / Data
+        </div>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
